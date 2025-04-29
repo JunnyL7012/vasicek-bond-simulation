@@ -1,0 +1,10 @@
+Param,Value
+Kappa =,0.16
+Mu =,0.06
+Sigma =,0.018
+r0 =,0.08
+Nmb Scens =,10
+dt (in years) =,0.25
+t term (in years) =,3
+dtau (in years) =,0.25
+tau term (in years) =,3
