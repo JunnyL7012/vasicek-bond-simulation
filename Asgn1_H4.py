@@ -5,7 +5,8 @@ import pandas as pd
 from scipy.stats import norm
 
 # Step 1: Read Parameters from CSV
-params = pd.read_csv('FNCE5323_24Sm_Asgn1-Params.csv', index_col=0, header=None, squeeze=True).to_dict()
+params = pd.read_csv('FNCE5323_24Sm_Asgn1-Params.csv', index_col=0, header=None)
+params = params.squeeze().to_dict()
 kappa = float(params['Kappa ='])
 mu = float(params['Mu ='])
 sigma = float(params['Sigma ='])
