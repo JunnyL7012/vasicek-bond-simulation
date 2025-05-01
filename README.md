@@ -20,5 +20,3 @@ The simulation proceeds in two steps:
 2. Use the closed-form solution of the Vasicek bond pricing formula to compute zero-coupon bond prices across different maturities.
 
 This tool is often used in interest rate modeling, bond pricing, and financial risk management.
-
-Short Rate Simulation and Zero-Coupon Bond Pricing Using Vasicek Model
