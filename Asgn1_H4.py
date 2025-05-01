@@ -6,6 +6,16 @@ from scipy.stats import norm
 
 st.title("Vasicek Model: Interest Rate & Bond Pricing Simulation")
 
+st.markdown("""
+### ℹ️ About This Simulation
+
+This project demonstrates a bond pricing simulation using the Vasicek interest rate model. The model assumes that short-term interest rates follow a mean-reverting stochastic process, which is commonly used in financial engineering to model interest rate dynamics.
+
+By adjusting key parameters like long-term mean rate (mu), speed of reversion (kappa), and volatility (sigma), we simulate multiple paths of short rates over time. Based on these rates, the simulation calculates the prices of zero-coupon bonds with various maturities (tau).
+
+This type of model is used by professionals in asset management, risk modeling, and pricing interest rate derivatives.
+""")
+
 st.sidebar.header("Simulation Parameters")
 kappa = st.sidebar.number_input("Kappa", value=0.1)
 mu = st.sidebar.number_input("Mu", value=0.05)
